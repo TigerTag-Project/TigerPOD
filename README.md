@@ -22,6 +22,7 @@ spool in, done. No aiming, no hunting for the sticker.
 **Contents:** [A first of its kind](#a-first-of-its-kind) ·
 [Why it exists](#why-it-exists) ·
 [Free electronics, free design](#free-electronics-free-design) ·
+[A universal NFC station](#more-than-tigertag--a-universal-nfc-station) ·
 [Build one](#build-one) · [Or buy the kit](#or-buy-the-kit) ·
 [The ecosystem](#the-ecosystem-around-it) ·
 [Read a tag in your own code](#read-a-tag-in-your-own-code) · [FAQ](#faq) ·
@@ -110,13 +111,27 @@ A single chip and a single reader still work, but you lose the drop-and-go conve
 
 Any [NTAG 213 / 215 / 216](https://amzn.to/3TzxGc7) works. Nothing is proprietary, nothing phones home.
 
-### Never locked, endlessly reusable
+## More than TigerTag — a universal NFC station
 
-A TigerTag is **never write-locked**. When a spool is done, the Pod can **erase and
-rewrite** its chips as fresh TigerTags — as many times as you want — or repurpose them
-entirely: turn an NTAG into a plain **NDEF** tag for any other NFC use, and back into a
-TigerTag whenever you like. The Pod writes **both ways**. The chip is a reusable asset,
-not single-use packaging — **zero e-waste**.
+The Pod is **not locked to the TigerTag protocol**. It is, quite literally, two standard
+PC/SC readers in a spool-shaped holder: **anything an ACR122U can do, the Pod can do.**
+
+**Full CRUD on your tags.** Create, read, update, and erase — the Pod does all four. There
+is no one-way street, no write-once, no vendor lock.
+
+**A universal reader/writer.** The ACR122U handles far more than NTAG. It covers
+**ISO 14443 Type A and B**, **MIFARE** (Classic 1K/4K, Ultralight, DESFire), **FeliCa**,
+**Topaz/Jewel**, and **NFC Forum tag types 1–4**. Whatever you can read or write with an
+ACR122U, you can read or write in the Pod.
+
+**Never locked, endlessly reusable.** A TigerTag is **never write-locked**. When a spool is
+done, erase and rewrite its chips as fresh TigerTags — as many times as you want.
+
+**Give end-of-life spool chips a second life.** Recycle them into something else entirely:
+reprogram an NTAG as a plain **NDEF** tag and use it for **home automation, connected
+objects, Wi-Fi hand-off, a URL, a business card** — any NFC use case you like. And you can
+turn it back into a TigerTag whenever you want. The Pod writes **both ways**. The chip is a
+reusable asset, not single-use packaging — **zero e-waste**.
 
 ## Build one
 
@@ -243,8 +258,15 @@ spools, non-reusable plastic spools, and refills all sit in the Pod.
 
 **Can I reuse the tags?**
 Yes — TigerTags are never locked. Erase and rewrite them as new TigerTags indefinitely,
-or convert them to a plain NDEF tag for another NFC use (and back again). The chip is a
-reusable asset, not disposable packaging.
+or convert them to a plain NDEF tag for another NFC use — home automation, connected
+objects, a URL, a business card — and back again. The chip is a reusable asset, not
+disposable packaging.
+
+**Can I use the Pod for non-TigerTag NFC work?**
+Yes. It's two standard ACR122U readers, so it does full CRUD on anything an ACR122U
+supports: ISO 14443 A/B, MIFARE (Classic, Ultralight, DESFire), FeliCa, Topaz/Jewel, and
+NFC Forum types 1–4. The Pod is a universal NFC read/write station that happens to be
+spool-shaped.
 
 **Does it need internet?**
 No. The Pod reads and writes locally; nothing phones home.
