@@ -29,7 +29,7 @@ spool in, done. No aiming, no hunting for the sticker.
 
 ## A first of its kind
 
-As far as we know, **the TigerPOD is the first spool-scale RFID reader/burner of its
+As far as we know, **the TigerPOD is the first spool-scale NFC/RFID reader/burner of its
 kind** — nobody had done this before. It was imagined by **Benoit Michaut**, a French
 maker who has been passionate about 3D printing since 2015, in **2023, alongside the
 creation of the open-source TigerTag protocol**: take **two standard, low-cost USB NFC
@@ -38,7 +38,7 @@ drop one on each side of a 3D-printed spool holder, and you get a device that re
 writes (burns) both chips of a filament spool at once. No custom PCB, no proprietary
 reader, no dedicated silicon.
 
-That turns encoding a spool's RFID chips — normally an industrial, closed process — into
+That turns encoding a spool's NFC chips — normally an industrial, closed process — into
 something anyone can build on their desk for the price of two commodity readers. The goal
 isn't the gadget, it's **democratising RFID for filament** through the open
 [**TigerTag**](https://github.com/TigerTag-Project/TigerTag-RFID-Guide) protocol so any
@@ -109,6 +109,14 @@ A single chip and a single reader still work, but you lose the drop-and-go conve
 (you have to present the tagged side) and the automatic Twin Tag sync.
 
 Any [NTAG 213 / 215 / 216](https://amzn.to/3TzxGc7) works. Nothing is proprietary, nothing phones home.
+
+### Never locked, endlessly reusable
+
+A TigerTag is **never write-locked**. When a spool is done, the Pod can **erase and
+rewrite** its chips as fresh TigerTags — as many times as you want — or repurpose them
+entirely: turn an NTAG into a plain **NDEF** tag for any other NFC use, and back into a
+TigerTag whenever you like. The Pod writes **both ways**. The chip is a reusable asset,
+not single-use packaging — **zero e-waste**.
 
 ## Build one
 
@@ -232,6 +240,11 @@ TigerTag record; pick 215/216 if you want more headroom. All three work in the P
 **Which spools fit?**
 About **99% of 1 kg spools**, regardless of type — plastic masterspools, cardboard
 spools, non-reusable plastic spools, and refills all sit in the Pod.
+
+**Can I reuse the tags?**
+Yes — TigerTags are never locked. Erase and rewrite them as new TigerTags indefinitely,
+or convert them to a plain NDEF tag for another NFC use (and back again). The chip is a
+reusable asset, not disposable packaging.
 
 **Does it need internet?**
 No. The Pod reads and writes locally; nothing phones home.
