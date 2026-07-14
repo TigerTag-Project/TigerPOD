@@ -67,7 +67,7 @@ Any [NTAG 213 / 215 / 216](https://amzn.to/3TzxGc7) works. Nothing is proprietar
 ## Build one
 
 1. Print the shell — one part, the model is published on
-   [MakerWorld](https://makerworld.com/fr/@TigerTag/collections/models).
+   [MakerWorld](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament).
 2. Get two [ACR122U-compatible readers](https://amzn.to/4vok3d7), from any shop you like
    (and some [NTAG 213 / 215 / 216 tags](https://amzn.to/3TzxGc7) to write on).
 3. Slide one reader into each slot — no screws, no glue, no wiring.
@@ -83,7 +83,7 @@ Rough prices, sourced separately — your mileage will vary by shop and region.
 |---|---|---|---|
 | [ACR122U-compatible NFC reader](https://amzn.to/4vok3d7) | 2 | ~€15–25 each | One per side of the spool |
 | [NTAG 213 / 215 / 216 tags](https://amzn.to/3TzxGc7) | 1 pack | ~€10–20 | Two chips per spool; a pack tags many spools |
-| 3D-printed shell | 1 | filament only | [Print it](https://makerworld.com/fr/@TigerTag/collections/models) yourself |
+| 3D-printed shell | 1 | filament only | [Print it](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament) yourself |
 | Splitter (2× USB-B → 1× USB-C) | 1 | ~€5–10 | Optional — two USB ports work too |
 
 ### Reader compatibility

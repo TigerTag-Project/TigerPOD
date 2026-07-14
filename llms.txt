@@ -53,7 +53,7 @@ A single chip + single reader also works, but loses drop-and-go convenience and 
 
   - 2× ACR122U-compatible USB NFC reader   (~EUR 15–25 each) — https://amzn.to/4vok3d7
   - 1× pack NTAG 213 / 215 / 216 tags       (~EUR 10–20)      — https://amzn.to/3TzxGc7
-  - 1× 3D-printed shell (single part)        (filament only)   — https://makerworld.com/fr/@TigerTag/collections/models
+  - 1× 3D-printed shell (single part)        (filament only)   — https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament
   - 1× splitter 2×USB-B → 1×USB-C (optional) (~EUR 5–10)
 Assembly: none. Print the shell, slide one reader into each slot, plug in. No screws,
 glue, or wiring.
