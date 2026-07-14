@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: TigerPOD
+message: >-
+  If you reference or build on the TigerPOD, please cite it using the
+  metadata below.
+type: software
+abstract: >-
+  The TigerPOD is the first spool-scale RFID reader/writer ("burner") built
+  from two commodity USB NFC readers and a 3D-printed shell. It reads and
+  writes the TigerTag chips of a filament spool on the desktop, using the
+  open-source TigerTag protocol. No custom silicon, no proprietary reader,
+  no network.
+authors:
+  - given-names: Benoit
+    family-names: Michaut
+    affiliation: TigerTag
+repository-code: 'https://github.com/TigerTag-Project/TigerPOD'
+url: 'https://tigertag.io'
+keywords:
+  - RFID
+  - NFC
+  - NTAG
+  - filament
+  - 3D printing
+  - open hardware
+  - TigerTag
+  - ACR122U
+license: CC-BY-4.0

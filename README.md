@@ -16,11 +16,24 @@ spool in, done. No aiming, no hunting for the sticker.
 
 <sub>▶ Higher-quality clip: [tigerpod-demo.mp4](assets/tigerpod-demo.mp4)</sub>
 
+> **Fits ~99% of 1 kg spools**, whatever the type — plastic masterspools, cardboard
+> spools, and non-reusable plastic or refill spools all drop right in.
+
+**Contents:** [A first of its kind](#a-first-of-its-kind) ·
+[Why it exists](#why-it-exists) ·
+[Free electronics, free design](#free-electronics-free-design) ·
+[Build one](#build-one) · [Or buy the kit](#or-buy-the-kit) ·
+[The ecosystem](#the-ecosystem-around-it) ·
+[Read a tag in your own code](#read-a-tag-in-your-own-code) · [FAQ](#faq) ·
+[Contributing](#contributing) · [Licence](#licence)
+
 ## A first of its kind
 
 As far as we know, **the TigerPOD is the first spool-scale RFID reader/burner of its
-kind** — nobody had done this before. We conceived it in **2023, alongside the creation
-of the open-source TigerTag protocol**: take **two standard, low-cost USB NFC readers**,
+kind** — nobody had done this before. It was imagined by **Benoit Michaut**, a French
+maker who has been passionate about 3D printing since 2015, in **2023, alongside the
+creation of the open-source TigerTag protocol**: take **two standard, low-cost USB NFC
+readers**,
 drop one on each side of a 3D-printed spool holder, and you get a device that reads *and*
 writes (burns) both chips of a filament spool at once. No custom PCB, no proprietary
 reader, no dedicated silicon.
@@ -34,6 +47,33 @@ maker, brand, or printer can adopt it freely.
 New to RFID for filament? Start with the
 [**TigerTag RFID Guide**](https://github.com/TigerTag-Project/TigerTag-RFID-Guide) — the
 open spec and public registry behind the Pod.
+
+## Why it exists
+
+The Pod was first imagined for **mass programming at third-party filament factories**. The
+brief was demanding: a way to encode spools that is **cheap, easy to build locally, and
+duplicable in large quantities at the lowest possible cost**, without giving up any
+capability. With commodity readers and a printed shell, the **development cost is
+essentially zero** — a Pod can be produced anywhere in the world, locally, in quantity.
+
+The ACR122U is deliberate: it's an extremely common reader, **easy to find anywhere for
+very little money**. And there's nothing to learn — **no electronics knowledge, no
+soldering, no difficulty**. Print the shell, slide in two readers: a five-year-old could
+assemble a TigerPOD.
+
+From that factory-floor origin, we then **brought the Pod to everyone** with the launch of
+the [**Tiger Studio Manager**](https://github.com/TigerTag-Project/TigerTag-Studio-Manager)
+desktop app — the same encoding power on any maker's desk, not just a production line.
+
+This is the founding premise of an open-source project that is **neutral and agnostic —
+tied to no printer maker and no filament brand**. The point is to put maximum value in
+everyone's hands and offer a genuinely low-cost path for users **everywhere on the
+planet**.
+
+That's also why it works with **every NTAG — down to the small NTAG 213**: we optimised
+every byte of the chip to pack the most data into the least space. And because a TigerTag
+chip is a standard NFC tag, **any phone with an NFC reader can read it** — so you can read
+*and write* TigerTag chips with nothing but a smartphone, no Pod required.
 
 ## Free electronics, free design
 
@@ -189,8 +229,17 @@ service and install the CCID driver. Unplug/replug once, then relaunch Tiger Stu
 They differ only in memory: 213 (~144 B), 215 (~504 B), 216 (~888 B). Any of them holds a
 TigerTag record; pick 215/216 if you want more headroom. All three work in the Pod.
 
+**Which spools fit?**
+About **99% of 1 kg spools**, regardless of type — plastic masterspools, cardboard
+spools, non-reusable plastic spools, and refills all sit in the Pod.
+
 **Does it need internet?**
 No. The Pod reads and writes locally; nothing phones home.
+
+## Contributing
+
+Remixes of the shell, build photos, doc fixes, and translations are all welcome — see
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
