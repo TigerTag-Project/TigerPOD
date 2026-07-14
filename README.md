@@ -185,17 +185,24 @@ and where TigerTag sits in it:
 | **TigerTag** | NTAG 213 / 215 / 216 | **Yes** — never locked, erase and rewrite forever | **Yes** |
 | [Elegoo Canvas](https://github.com/ELEGOO-3D/ELEGOO-RFID-Tag-Guide) | NTAG213 | Yes — no encryption, no password, publicly documented | Yes |
 | [Bambu Lab](https://github.com/Bambu-Research-Group/RFID-Tag-Guide) | MIFARE Classic 1K | **No** — data is encrypted *and* RSA-signed; the printer rejects any tag without a valid signature | No |
-| [Creality CFS](https://help.simplyprint.io/en/article/the-creality-material-standard-nfcrfid-for-the-creality-cfs-1crrofa/) | MIFARE Classic 1K | **No** — proprietary, AES-encrypted, undocumented (community reverse-engineered) | No |
-| [QIDI Box](https://help.simplyprint.io/en/article/the-qidi-material-standard-nfcrfid-for-the-qidi-box-ns0c8d/) | MIFARE Classic 1K | **No** — proprietary format | No |
+| [Creality CFS](https://help.simplyprint.io/en/article/the-creality-material-standard-nfcrfid-for-the-creality-cfs-1crrofa/) | MIFARE Classic 1K | Not officially — proprietary and undocumented; only reverse-engineered community tools can | No |
+| [QIDI Box](https://help.simplyprint.io/en/article/the-qidi-material-standard-nfcrfid-for-the-qidi-box-ns0c8d/) | MIFARE Classic 1K | Not officially — proprietary format | No |
 | [Snapmaker U1](https://snapmakeru1-extended-firmware.pages.dev/rfid_support) | MIFARE Classic 1K | **No** — proprietary + RSA signature, official tags only | No |
 | [Anycubic ACE](https://help.simplyprint.io/en/article/all-about-nfc-rfid-for-filament-spools-bambu-openprinttag-creality-qidi-anycubic-more-19luyni/) | NTAG215 / 216 | Yes | Yes |
 
-Don't take our word for the split. [**OpenRFID**](https://github.com/suchmememanyskill/OpenRFID),
-an independent third-party library that parses filament tags from every major brand, sorts
-them the same way: Bambu Lab, Creality, QIDI and Snapmaker are handled through its
-*authenticated MIFARE Classic* path (keys required), while Elegoo, Anycubic and **TigerTag**
-go through its plain *NTAG* path — no keys, no authentication. TigerTag is already supported
-there, alongside the majors.
+Don't take our word for the split — two independent projects sort it the same way.
+
+[**OpenRFID**](https://github.com/suchmememanyskill/OpenRFID), a third-party library that
+parses filament tags from every major brand, routes Bambu Lab, Creality, QIDI and Snapmaker
+through its *authenticated MIFARE Classic* path (keys required), while Elegoo, Anycubic and
+**TigerTag** go through its plain *NTAG* path — no keys, no authentication.
+
+[**xspool**](https://github.com/xperiments/xspool), a spool manager supporting Bambu Lab,
+Creality CFS, Anycubic ACE Pro and TigerTag, publishes its own capability table. In it,
+**Bambu Lab tags are readable but not writable**, and **TigerTag is the only format with
+read, write *and* extra metadata all supported**.
+
+TigerTag is implemented in both — alongside the majors, by people with no stake in it.
 
 Two things fall out of that table.
 
