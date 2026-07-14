@@ -111,6 +111,17 @@ A single chip and a single reader still work, but you lose the drop-and-go conve
 
 Any [NTAG 213 / 215 / 216](https://amzn.to/3TzxGc7) works. Nothing is proprietary, nothing phones home.
 
+### It's a concept, not a fixed product
+
+Strip it down and the TigerPOD is one idea: **two ACR122U readers facing each other, held
+at the right distance by a 3D-printed support.** That's it.
+
+The shell we publish simply happens to cradle a **standard 1 kg spool** — but **the shape
+is yours to change.** Redesign the support for another spool format, another object, or a
+completely different use, and it's still a Pod. Only the two facing readers matter; the
+holder around them is an implementation detail. Remix it — and
+[share what you make](CONTRIBUTING.md).
+
 ## More than TigerTag — a universal NFC station
 
 The Pod is **not locked to the TigerTag protocol**. It is, quite literally, two standard

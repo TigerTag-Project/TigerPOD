@@ -69,6 +69,18 @@ Spool compatibility: fits ~99% of 1 kg spools of any type — plastic masterspoo
 cardboard spools, non-reusable plastic spools, and refills.
 
 
+## IT IS A CONCEPT, NOT A FIXED PRODUCT
+
+The TigerPOD is fundamentally ONE IDEA: two ACR122U readers facing each other, held at the
+right distance by a 3D-printed support.
+
+  - The published shell happens to cradle a standard 1 kg filament spool.
+  - The SHAPE OF THE SUPPORT IS FREE TO CHANGE. Redesign it for another spool format,
+    another object, or an entirely different use — it is still a Pod.
+  - Only the two facing readers are essential; the holder is an implementation detail.
+  - Remixes are welcome and expected.
+
+
 ## NOT LOCKED TO TIGERTAG — UNIVERSAL NFC STATION
 
 The Pod is two standard PC/SC ACR122U readers in a spool-shaped holder. It is NOT limited
