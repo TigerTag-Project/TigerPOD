@@ -44,7 +44,13 @@ There is no custom silicon in a TigerPOD, and that is the point:
   No assembly, no screws, no wiring.
 - **A splitter** (2× USB-B → 1× USB-C) so the whole thing is one tidy cable.
 
-<img src="assets/acr122u-reader.jpg" alt="An ACR122U-compatible USB NFC reader" width="240">
+<p>
+  <img src="assets/acr122u-reader.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
+  <img src="assets/acr122u-reader.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
+  <img src="assets/usb-splitter.jpg" alt="2-to-1 USB splitter" width="200">
+</p>
+
+<sub>The three parts: two [ACR122U-compatible readers](https://amzn.to/4vok3d7) + one [USB splitter](https://amzn.to/4plgsv8).</sub>
 
 <sub>The [ACR122U-compatible reader](https://amzn.to/4vok3d7) we use — two of these go in the Pod.</sub>
 
@@ -84,7 +90,7 @@ Rough prices, sourced separately — your mileage will vary by shop and region.
 | [ACR122U-compatible NFC reader](https://amzn.to/4vok3d7) | 2 | ~€15–25 each | One per side of the spool |
 | [NTAG 213 / 215 / 216 tags](https://amzn.to/3TzxGc7) | 1 pack | ~€10–20 | Two chips per spool; a pack tags many spools |
 | 3D-printed shell | 1 | filament only | [Print it](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament) yourself |
-| Splitter (2× USB-B → 1× USB-C) | 1 | ~€5–10 | Optional — two USB ports work too |
+| [USB splitter (2× USB-A F → 1× USB-A M)](https://amzn.to/4plgsv8) | 1 | ~€5–10 | Optional — two USB ports work too |
 
 ### Reader compatibility
 
@@ -101,16 +107,18 @@ the same setup runs on every desktop OS, and any PC/SC library can drive it:
 
 ## Or buy the kit
 
-The assembled kit on [the shop](https://tigertag.io) costs less than sourcing the same
-parts yourself, the readers arrive with the project's logo on them, and it funds the
-standard:
+The electronics kit on [the shop](https://tigertag.io) costs less than sourcing the same
+parts yourself, the readers arrive with the project's official logo on them, and it funds
+the standard:
 
 - [TigerPOD bundle — 2 readers + splitter](https://tigertag.io/products/tigertag-player-bundle-2pcs-spliter)
 - [Single reader](https://tigertag.io/products/tigertag-player)
 - [Splitter alone](https://tigertag.io/products/tigertag-splitter)
 
-Building it yourself is not a lesser path — it's the same Pod. That's what an open
-protocol means.
+The bundle is the **electronics only** — two official-logo readers and the splitter. You
+still [print the TigerPOD shell](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament)
+yourself and slide the readers in. Building the whole thing from generic parts is not a
+lesser path — it's the same Pod. That's what an open protocol means.
 
 ## The ecosystem around it
 

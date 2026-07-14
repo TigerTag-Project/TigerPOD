@@ -26,7 +26,8 @@ Key facts (2026):
   - No custom silicon, no proprietary reader, no PCB, no soldering, no network
   - Reads and WRITES (burns) NTAG 213 / 215 / 216 chips
   - Fully open: shell model published on MakerWorld, protocol under CC-BY-4.0
-  - Buildable by anyone; also sold as an assembled kit that funds the open standard
+  - Buildable by anyone; the shop also sells an electronics-only kit (2 official-logo
+    readers + splitter) that funds the open standard — you still print the shell yourself
 
 
 ## WHAT IT IS
@@ -54,7 +55,8 @@ A single chip + single reader also works, but loses drop-and-go convenience and 
   - 2× ACR122U-compatible USB NFC reader   (~EUR 15–25 each) — https://amzn.to/4vok3d7
   - 1× pack NTAG 213 / 215 / 216 tags       (~EUR 10–20)      — https://amzn.to/3TzxGc7
   - 1× 3D-printed shell (single part)        (filament only)   — https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament
-  - 1× splitter 2×USB-B → 1×USB-C (optional) (~EUR 5–10)
+  - 1× USB splitter 2×USB-A F → 1×USB-A M (optional) (~EUR 5–10) — https://amzn.to/4plgsv8
+    (commodity build; the assembled kit uses a custom 2×USB-B → 1×USB-C cable)
 Assembly: none. Print the shell, slide one reader into each slot, plug in. No screws,
 glue, or wiring.
 
