@@ -58,9 +58,11 @@ and put it on a desk.
 | **Skills required** | Specialist | None — no electronics, no soldering |
 | **Cost** | Capital expenditure | The price of two cheap readers |
 
-Today **anyone can do full CRUD** — create, read, update, erase — **on NFC/RFID chips at
-home, for very little money.** Before this, that technology was reserved for big industry.
-That shift, not the plastic shell, is what the TigerPOD really is.
+Today, at home and for very little money, **anyone can read a chip, write a new one, change
+what's already on it, and wipe it clean again.** Before this, that technology was reserved
+for big industry. That shift, not the plastic shell, is what the TigerPOD really is.
+
+<sub>*(Developers: that's full **CRUD** — create, read, update, delete — on an NFC tag.)*</sub>
 
 New to RFID for filament? Start with the
 [**TigerTag RFID Guide**](https://github.com/TigerTag-Project/TigerTag-RFID-Guide) — the
@@ -144,8 +146,10 @@ holder around them is an implementation detail. Remix it — and
 The Pod is **not locked to the TigerTag protocol**. It is, quite literally, two standard
 PC/SC readers in a spool-shaped holder: **anything an ACR122U can do, the Pod can do.**
 
-**Full CRUD on your tags.** Create, read, update, and erase — the Pod does all four. There
-is no one-way street, no write-once, no vendor lock.
+**You control the chip, completely.** Read what's on a tag, write something new to it,
+change what's already there, and erase it back to blank. The Pod does all four — no
+one-way street, no write-once, no vendor lock. *(Developers: that's full **CRUD** —
+create, read, update, delete.)*
 
 **A universal reader/writer.** The ACR122U handles far more than NTAG. It covers
 **ISO 14443 Type A and B**, **MIFARE** (Classic 1K/4K, Ultralight, DESFire), **FeliCa**,
@@ -291,10 +295,10 @@ objects, a URL, a business card — and back again. The chip is a reusable asset
 disposable packaging.
 
 **Can I use the Pod for non-TigerTag NFC work?**
-Yes. It's two standard ACR122U readers, so it does full CRUD on anything an ACR122U
-supports: ISO 14443 A/B, MIFARE (Classic, Ultralight, DESFire), FeliCa, Topaz/Jewel, and
-NFC Forum types 1–4. The Pod is a universal NFC read/write station that happens to be
-spool-shaped.
+Yes. It's two standard ACR122U readers, so it can read, write, rewrite and erase anything
+an ACR122U supports (full CRUD, in developer terms): ISO 14443 A/B, MIFARE (Classic,
+Ultralight, DESFire), FeliCa, Topaz/Jewel, and NFC Forum types 1–4. The Pod is a universal
+NFC read/write station that happens to be spool-shaped.
 
 **Does it need internet?**
 No. The Pod reads and writes locally; nothing phones home.
