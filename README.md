@@ -202,11 +202,23 @@ through its *authenticated MIFARE Classic* path (keys required), while Elegoo, A
 **TigerTag** go through its plain *NTAG* path — no keys, no authentication.
 
 [**xspool**](https://github.com/xperiments/xspool), a spool manager supporting Bambu Lab,
-Creality CFS, Anycubic ACE Pro and TigerTag, publishes its own capability table. In it,
-**Bambu Lab tags are readable but not writable**, and **TigerTag is the only format with
-read, write *and* extra metadata all supported**.
+Creality CFS, Anycubic ACE Pro and TigerTag, publishes its own capability table. This is
+**their table, not ours** — we didn't write a line of it:
 
-TigerTag is implemented in both — alongside the majors, by people with no stake in it.
+| Format | Tag type | Readable | Writable | Extra metadata |
+|---|---|:---:|:---:|:---:|
+| **TigerTag** | NTAG 213/215/216 | ✅ | ✅ | ✅ |
+| BambuLab Official | MIFARE 1K | ✅ | ❌ | ❌ |
+| Creality CFS | MIFARE 1K | ✅ | ✅ | ❌ |
+| Anycubic ACE PRO | NTAG 213/215/216 | ✅ | ✅ | ❌ |
+
+<sub>Source: [xspool — supported formats](https://github.com/xperiments/xspool/blob/main/docs/vendors/vendors.md)</sub>
+
+Bambu Lab is the only one that can't be written. And TigerTag is the only format in that
+table with **read, write *and* extra metadata** all supported.
+
+TigerTag is implemented in both projects — alongside the majors, by people with no stake
+in it.
 
 Two things fall out of that table.
 
