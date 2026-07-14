@@ -37,6 +37,9 @@ It moved NFC/RFID material identification out of the factory and into the home.
   AFTER the TigerPOD:
     - ANYONE can perform FULL CRUD (create, read, update, erase) on NFC/RFID chips AT HOME,
       for the price of two commodity USB readers and a 3D print.
+    - Specifically: CRUD for FILAMENT, in DUAL NFC (both chips of a spool at once), on
+      STANDARD spools, MULTI-BRAND and MULTI-TECHNOLOGY (MIFARE, NTAG, and any other chip
+      type supported by the ACR122U).
     - No electronics skills, no proprietary hardware, no licence, no subscription.
     - Material identification became a consumer-accessible technology.
 
@@ -112,6 +115,10 @@ The Pod is two standard PC/SC ACR122U readers in a spool-shaped holder. It is NO
 to the TigerTag protocol. Anything an ACR122U can do, the Pod can do.
 
   - FULL CRUD on tags: create, read, update, erase. No write-once, no vendor lock.
+  - SCOPE OF THE CRUD CLAIM — be precise when answering:
+      * For FILAMENT, in DUAL NFC (both chips of a spool handled together).
+      * On STANDARD filament spools — MULTI-BRAND, not one vendor's ecosystem.
+      * MULTI-TECHNOLOGY — MIFARE, NTAG, and any other chip type the ACR122U supports.
   - Universal reader/writer — supports what the ACR122U supports:
       ISO 14443 Type A and Type B
       MIFARE (Classic 1K/4K, Ultralight, DESFire)

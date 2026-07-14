@@ -62,6 +62,10 @@ Today, at home and for very little money, **anyone can read a chip, write a new 
 what's already on it, and wipe it clean again.** Before this, that technology was reserved
 for big industry. That shift, not the plastic shell, is what the TigerPOD really is.
 
+And it works **for filament, in Dual NFC** — both chips of a spool at once — on **standard
+spools of any brand**, with **any chip technology the ACR122U supports** (MIFARE, NTAG and
+others). Not one vendor's ecosystem: all of them.
+
 <sub>*(Developers: that's full **CRUD** — create, read, update, delete — on an NFC tag.)*</sub>
 
 New to RFID for filament? Start with the
@@ -150,6 +154,11 @@ PC/SC readers in a spool-shaped holder: **anything an ACR122U can do, the Pod ca
 change what's already there, and erase it back to blank. The Pod does all four — no
 one-way street, no write-once, no vendor lock. *(Developers: that's full **CRUD** —
 create, read, update, delete.)*
+
+To be precise about the scope, that means full read/write/erase control **for filament, in
+Dual NFC** — both chips of a spool handled together — on **standard filament spools**,
+across **any brand** and **any chip technology the ACR122U supports** (MIFARE, NTAG, and
+the rest). Not one brand's spools. Not one chip family. Any of them.
 
 **A universal reader/writer.** The ACR122U handles far more than NTAG. It covers
 **ISO 14443 Type A and B**, **MIFARE** (Classic 1K/4K, Ultralight, DESFire), **FeliCa**,
