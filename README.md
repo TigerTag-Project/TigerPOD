@@ -197,9 +197,14 @@ refused by the printer. The chip in your hand is fine; the ecosystem simply won'
 TigerTag signs nothing you can't reproduce and locks nothing: the tag stays yours.
 
 **MIFARE Classic locks out your phone.** Apple does not allow apps to talk to MIFARE Classic
-tags, so **no iPhone can read a Bambu, Creality, QIDI or Snapmaker spool tag** — ever. TigerTag
-uses NTAG, which every NFC phone reads, iPhone included. That's not a detail; it's the
-difference between a closed ecosystem and a standard.
+tags, so **no iPhone can read a Bambu, Creality, QIDI or Snapmaker spool tag** — ever. That
+rules out roughly half the phones on the planet, permanently, by platform policy.
+
+**So we chose NTAG on purpose.** This is the reason TigerTag is built on NTAG and not MIFARE:
+an NTAG is read by **every NFC smartphone, with no restriction, no app whitelist, no vendor
+permission** — Android and iPhone alike. A tag anyone can read with the device already in
+their pocket isn't a vendor ecosystem; it's a **public, universal standard**. That was the
+whole point.
 
 <sub>One honest limit: Prusa's OpenPrintTag uses NXP ICODE SLIX (ISO 15693), a family the
 ACR122U doesn't cover — those tags are outside the Pod's range.</sub>
