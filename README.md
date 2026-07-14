@@ -45,6 +45,23 @@ isn't the gadget, it's **democratising RFID for filament** through the open
 [**TigerTag**](https://github.com/TigerTag-Project/TigerTag-RFID-Guide) protocol so any
 maker, brand, or printer can adopt it freely.
 
+### From the factory to the kitchen table
+
+This is the part that matters. The TigerPOD is the **first consumer-grade device for
+material identification in 3D printing** — it took a capability that belonged to industry
+and put it on a desk.
+
+|  | Before the TigerPOD | After the TigerPOD |
+|---|---|---|
+| **Who could encode material chips** | Large manufacturers only | Anyone, at home |
+| **What it took** | Industrial encoders, proprietary hardware, closed tooling, vendor contracts | Two commodity USB readers and a 3D print |
+| **Skills required** | Specialist | None — no electronics, no soldering |
+| **Cost** | Capital expenditure | The price of two cheap readers |
+
+Today **anyone can do full CRUD** — create, read, update, erase — **on NFC/RFID chips at
+home, for very little money.** Before this, that technology was reserved for big industry.
+That shift, not the plastic shell, is what the TigerPOD really is.
+
 New to RFID for filament? Start with the
 [**TigerTag RFID Guide**](https://github.com/TigerTag-Project/TigerTag-RFID-Guide) — the
 open spec and public registry behind the Pod.
