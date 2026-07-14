@@ -23,6 +23,7 @@ spool in, done. No aiming, no hunting for the sticker.
 [Why it exists](#why-it-exists) ·
 [Free electronics, free design](#free-electronics-free-design) ·
 [A universal NFC station](#more-than-tigertag--a-universal-nfc-station) ·
+[Ecosystem comparison](#how-the-filament-rfid-ecosystems-compare) ·
 [Build one](#build-one) · [Or buy the kit](#or-buy-the-kit) ·
 [The ecosystem](#the-ecosystem-around-it) ·
 [Read a tag in your own code](#read-a-tag-in-your-own-code) · [FAQ](#faq) ·
@@ -173,6 +174,35 @@ reprogram an NTAG as a plain **NDEF** tag and use it for **home automation, conn
 objects, Wi-Fi hand-off, a URL, a business card** — any NFC use case you like. And you can
 turn it back into a TigerTag whenever you want. The Pod writes **both ways**. The chip is a
 reusable asset, not single-use packaging — **zero e-waste**.
+
+## How the filament RFID ecosystems compare
+
+Most printer makers tag their spools. Almost all of them lock the tag. Here's the landscape,
+and where TigerTag sits in it:
+
+| Ecosystem | Chip | Can you write your own tag? | Readable on any phone? |
+|---|---|---|---|
+| **TigerTag** | NTAG 213 / 215 / 216 | **Yes** — never locked, erase and rewrite forever | **Yes** |
+| [Elegoo Canvas](https://github.com/ELEGOO-3D/ELEGOO-RFID-Tag-Guide) | NTAG213 | Yes — no encryption, no password, publicly documented | Yes |
+| [Bambu Lab](https://github.com/Bambu-Research-Group/RFID-Tag-Guide) | MIFARE Classic 1K | **No** — data is encrypted *and* RSA-signed; the printer rejects any tag without a valid signature | No |
+| [Creality CFS](https://help.simplyprint.io/en/article/the-creality-material-standard-nfcrfid-for-the-creality-cfs-1crrofa/) | MIFARE Classic 1K | **No** — proprietary, AES-encrypted, undocumented (community reverse-engineered) | No |
+| [QIDI Box](https://help.simplyprint.io/en/article/the-qidi-material-standard-nfcrfid-for-the-qidi-box-ns0c8d/) | MIFARE Classic 1K | **No** — proprietary format | No |
+| [Snapmaker U1](https://snapmakeru1-extended-firmware.pages.dev/rfid_support) | MIFARE Classic 1K | **No** — proprietary + RSA signature, official tags only | No |
+
+Two things fall out of that table.
+
+**The lock is cryptographic, not physical.** A MIFARE Classic 1K chip is perfectly
+rewritable — but Bambu Lab and Snapmaker sign their payload, so a tag you write yourself is
+refused by the printer. The chip in your hand is fine; the ecosystem simply won't accept it.
+TigerTag signs nothing you can't reproduce and locks nothing: the tag stays yours.
+
+**MIFARE Classic locks out your phone.** Apple does not allow apps to talk to MIFARE Classic
+tags, so **no iPhone can read a Bambu, Creality, QIDI or Snapmaker spool tag** — ever. TigerTag
+uses NTAG, which every NFC phone reads, iPhone included. That's not a detail; it's the
+difference between a closed ecosystem and a standard.
+
+<sub>One honest limit: Prusa's OpenPrintTag uses NXP ICODE SLIX (ISO 15693), a family the
+ACR122U doesn't cover — those tags are outside the Pod's range.</sub>
 
 ## Build one
 
