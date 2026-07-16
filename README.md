@@ -391,6 +391,13 @@ The documentation in this repository is **CC-BY-4.0** (see [LICENSE](LICENSE)).
 The TigerTag name and logo are trademarks of TigerTag Corp — usage terms in
 [TRADEMARK.md](https://github.com/TigerTag-Project/TigerTag-RFID-Guide/blob/main/TRADEMARK.md).
 
+`assets/` also carries the official "Tiger" icon kit: neutral (no text) and
+"TIGER TAG"-marked variants, each shipped as overflow (display as-is), contained, and
+square (for masked contexts like round favicons or adaptive icons) compositions. Same
+trademark terms apply — full usage guidelines are in
+[brand/README.md](https://github.com/TigerTag-Project/TigerTag-RFID-Guide/blob/main/brand/README.md)
+of the main protocol repo.
+
 Questions, partnerships, press: [tigertag@tigertag.io](mailto:tigertag@tigertag.io)
 
 ---
