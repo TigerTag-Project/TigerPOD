@@ -10,11 +10,11 @@ shell. Drop a filament spool in and your computer reads its TigerTag chip — ma
 brand, colour, temperatures, what's left. Write (encode) a tag the same way: put the
 spool in, done. No aiming, no hunting for the sticker.
 
-![The TigerPOD, printed in every colour, each cradling a filament spool](assets/pods/rainbow-9.jpg)
+![The TigerPOD, printed in every colour, each cradling a filament spool](assets/pods/TigerPOD-rainbow-9.jpg)
 
-![The TigerPOD reading a spool in Tiger Studio](assets/tigerpod-demo.gif)
+![The TigerPOD reading a spool in Tiger Studio](assets/TigerPOD-demo.gif)
 
-<sub>▶ Higher-quality clip: [tigerpod-demo.mp4](assets/tigerpod-demo.mp4)</sub>
+<sub>▶ Higher-quality clip: [TigerPOD-demo.mp4](assets/TigerPOD-demo.mp4)</sub>
 
 > **Fits ~99% of 1 kg spools**, whatever the type — plastic masterspools, cardboard
 > spools, and non-reusable plastic or refill spools all drop right in.
@@ -110,14 +110,12 @@ There is no custom silicon in a TigerPOD, and that is the point:
 - **A splitter** (2× USB-B → 1× USB-C) so the whole thing is one tidy cable.
 
 <p>
-  <img src="assets/acr122u-reader.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
-  <img src="assets/acr122u-reader.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
-  <img src="assets/usb-splitter.jpg" alt="2-to-1 USB splitter" width="200">
+  <img src="assets/TigerPOD-reader-acr122u.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
+  <img src="assets/TigerPOD-reader-acr122u.jpg" alt="ACR122U-compatible USB NFC reader" width="200">
+  <img src="assets/TigerPOD-splitter.jpg" alt="2-to-1 USB splitter" width="200">
 </p>
 
-<sub>The three parts: two [ACR122U-compatible readers](https://amzn.to/4vok3d7) + one [USB splitter](https://amzn.to/4plgsv8).</sub>
-
-<sub>The [ACR122U-compatible reader](https://amzn.to/4vok3d7) we use — two of these go in the Pod.</sub>
+<sub>The three parts we use: two [ACR122U-compatible readers](https://amzn.to/4vok3d7) + one [USB splitter](https://amzn.to/4plgsv8) — two readers go in each Pod.</sub>
 
 ### Why two chips and two readers
 
@@ -149,21 +147,21 @@ holder around them is an implementation detail. Remix it — and
 And since you print it yourself, **it comes in whatever colour you load.** Same Pod, your filament:
 
 <p>
-  <img src="assets/pods/pod-red.jpg" width="108" alt="Red TigerPOD">
-  <img src="assets/pods/pod-orange.jpg" width="108" alt="Orange TigerPOD">
-  <img src="assets/pods/pod-yellow.jpg" width="108" alt="Yellow TigerPOD">
-  <img src="assets/pods/pod-green.jpg" width="108" alt="Green TigerPOD">
-  <img src="assets/pods/pod-cyan.jpg" width="108" alt="Cyan TigerPOD">
-  <img src="assets/pods/pod-blue.jpg" width="108" alt="Blue TigerPOD">
-  <img src="assets/pods/pod-purple.jpg" width="108" alt="Purple TigerPOD">
-  <img src="assets/pods/pod-pink.jpg" width="108" alt="Pink TigerPOD">
-  <img src="assets/pods/pod-gold.jpg" width="108" alt="Gold TigerPOD">
-  <img src="assets/pods/pod-copper.jpg" width="108" alt="Copper TigerPOD">
-  <img src="assets/pods/pod-silver.jpg" width="108" alt="Silver TigerPOD">
-  <img src="assets/pods/pod-grey.jpg" width="108" alt="Grey TigerPOD">
-  <img src="assets/pods/pod-black.jpg" width="108" alt="Black TigerPOD">
-  <img src="assets/pods/pod-white.jpg" width="108" alt="White TigerPOD">
-  <img src="assets/pods/pod-glow.jpg" width="108" alt="Glow-in-the-dark TigerPOD">
+  <img src="assets/pods/TigerPOD-red.jpg" width="108" alt="Red TigerPOD">
+  <img src="assets/pods/TigerPOD-orange.jpg" width="108" alt="Orange TigerPOD">
+  <img src="assets/pods/TigerPOD-yellow.jpg" width="108" alt="Yellow TigerPOD">
+  <img src="assets/pods/TigerPOD-green.jpg" width="108" alt="Green TigerPOD">
+  <img src="assets/pods/TigerPOD-cyan.jpg" width="108" alt="Cyan TigerPOD">
+  <img src="assets/pods/TigerPOD-blue.jpg" width="108" alt="Blue TigerPOD">
+  <img src="assets/pods/TigerPOD-purple.jpg" width="108" alt="Purple TigerPOD">
+  <img src="assets/pods/TigerPOD-pink.jpg" width="108" alt="Pink TigerPOD">
+  <img src="assets/pods/TigerPOD-gold.jpg" width="108" alt="Gold TigerPOD">
+  <img src="assets/pods/TigerPOD-copper.jpg" width="108" alt="Copper TigerPOD">
+  <img src="assets/pods/TigerPOD-silver.jpg" width="108" alt="Silver TigerPOD">
+  <img src="assets/pods/TigerPOD-grey.jpg" width="108" alt="Grey TigerPOD">
+  <img src="assets/pods/TigerPOD-black.jpg" width="108" alt="Black TigerPOD">
+  <img src="assets/pods/TigerPOD-white.jpg" width="108" alt="White TigerPOD">
+  <img src="assets/pods/TigerPOD-glow.jpg" width="108" alt="Glow-in-the-dark TigerPOD">
 </p>
 
 <sub>A few of the colours it's been printed in — plus brown, milk, pastel green and light grey in
@@ -318,7 +316,7 @@ lesser path — it's the same Pod. That's what an open protocol means.
 
 ## The ecosystem around it
 
-![Tiger Studio on desktop and mobile](assets/tiger-studio.png)
+![The TigerTag system — the TigerPOD, the Tiger Studio desktop app, and the mobile app all sharing one spool](assets/TigerPOD-hero-system.png)
 
 | | |
 |---|---|
