@@ -166,7 +166,9 @@ And since you print it yourself, **it comes in whatever colour you load.** Same 
   <img src="assets/pods/pod-glow.jpg" width="108" alt="Glow-in-the-dark TigerPOD">
 </p>
 
-<sub>A few of the colours it's been printed in — plus brown, milk, pastel green and light grey in [`assets/pods/`](assets/pods).</sub>
+<sub>A few of the colours it's been printed in — plus brown, milk, pastel green and light grey in
+[`assets/pods/`](assets/pods). Full-resolution originals live in [`assets/pods/hd/`](assets/pods/hd),
+and transparent (background-removed) PNG cut-outs in [`assets/pods/cutout/`](assets/pods/cutout).</sub>
 
 ## More than TigerTag — a universal NFC station
 
