@@ -10,7 +10,7 @@ shell. Drop a filament spool in and your computer reads its TigerTag chip — ma
 brand, colour, temperatures, what's left. Write (encode) a tag the same way: put the
 spool in, done. No aiming, no hunting for the sticker.
 
-![The TigerPOD, printed in every colour, each cradling a filament spool](assets/pods/TigerPOD-rainbow-9.jpg)
+![The TigerPOD, printed in every colour, each cradling a filament spool](assets/lineup/TigerPOD-lineup-9.jpg)
 
 ![The TigerPOD reading a spool in Tiger Studio](assets/TigerPOD-demo.gif)
 
@@ -444,6 +444,21 @@ trademark terms apply — full usage guidelines are in
 of the main protocol repo.
 
 Questions, partnerships, press: [tigertag@tigertag.io](mailto:tigertag@tigertag.io)
+
+### Media kit
+
+Press and partners are welcome to use these, under [CC-BY-4.0](LICENSE) (credit TigerTag):
+
+| | |
+|---|---|
+| **Hero / line-up shots** | [`assets/lineup/`](assets/lineup) — the full Pod line-up, ideal as a cover image |
+| **Product shots** | [`assets/pods/`](assets/pods) — 34 individual Pods, one per colour and finish |
+| **The system** | [`TigerPOD-hero-system.png`](assets/TigerPOD-hero-system.png) — Pod + desktop app + mobile app |
+| **In use** | [`TigerPOD-demo.mp4`](assets/TigerPOD-demo.mp4) · [`TigerPOD-demo.gif`](assets/TigerPOD-demo.gif) |
+| **Parts** | [`TigerPOD-reader-acr122u.jpg`](assets/TigerPOD-reader-acr122u.jpg) · [`TigerPOD-splitter.jpg`](assets/TigerPOD-splitter.jpg) |
+
+Each image comes in three forms: an optimised JPG for the web, a full-resolution original
+in `hd/`, and a transparent background-removed PNG in `cutout/`.
 
 ---
 
