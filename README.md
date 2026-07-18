@@ -165,8 +165,31 @@ And since you print it yourself, **it comes in whatever colour you load.** Same 
 </p>
 
 <sub>A few of the colours it's been printed in — plus brown, milk, pastel green and light grey in
-[`assets/pods/`](assets/pods). Full-resolution originals live in [`assets/pods/hd/`](assets/pods/hd),
-and transparent (background-removed) PNG cut-outs in [`assets/pods/cutout/`](assets/pods/cutout).</sub>
+[`assets/pods/`](assets/pods).</sub>
+
+And whatever your filament does, the Pod does too — silk, metallic, galaxy, marble,
+glow-in-the-dark:
+
+<p>
+  <img src="assets/pods/TigerPOD-silk-red.jpg" width="108" alt="Silk red TigerPOD">
+  <img src="assets/pods/TigerPOD-silk-pink.jpg" width="108" alt="Silk pink TigerPOD">
+  <img src="assets/pods/TigerPOD-silk-yellow.jpg" width="108" alt="Silk yellow TigerPOD">
+  <img src="assets/pods/TigerPOD-silk-blue.jpg" width="108" alt="Silk blue TigerPOD">
+  <img src="assets/pods/TigerPOD-silk-black.jpg" width="108" alt="Silk black TigerPOD">
+  <img src="assets/pods/TigerPOD-real-gold.jpg" width="108" alt="Metallic gold TigerPOD">
+  <img src="assets/pods/TigerPOD-real-copper.jpg" width="108" alt="Metallic copper TigerPOD">
+  <img src="assets/pods/TigerPOD-real-silver.jpg" width="108" alt="Metallic silver TigerPOD">
+  <img src="assets/pods/TigerPOD-galaxy-purple.jpg" width="108" alt="Galaxy purple TigerPOD">
+  <img src="assets/pods/TigerPOD-marble.jpg" width="108" alt="Marble TigerPOD">
+  <img src="assets/pods/TigerPOD-rainbow-linear.jpg" width="108" alt="Linear rainbow TigerPOD">
+  <img src="assets/pods/TigerPOD-rainbow-multi.jpg" width="108" alt="Multicolour rainbow TigerPOD">
+  <img src="assets/pods/TigerPOD-glow-green-dark.jpg" width="108" alt="Green glow-in-the-dark TigerPOD, lights off">
+  <img src="assets/pods/TigerPOD-glow-blue-dark.jpg" width="108" alt="Blue glow-in-the-dark TigerPOD, lights off">
+  <img src="assets/pods/TigerPOD-glow-red-dark.jpg" width="108" alt="Red glow-in-the-dark TigerPOD, lights off">
+</p>
+
+<sub>Full-resolution originals live in [`assets/pods/hd/`](assets/pods/hd), and transparent
+(background-removed) PNG cut-outs in [`assets/pods/cutout/`](assets/pods/cutout).</sub>
 
 ## More than TigerTag — a universal NFC station
 
