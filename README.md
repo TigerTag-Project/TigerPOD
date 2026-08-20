@@ -146,10 +146,16 @@ holder around them is an implementation detail. Remix it — and
 
 We did exactly that ourselves — there are now **two shells to print**, same two-reader concept:
 
+<img src="assets/TigerPOD-mini.jpg" align="right" width="230" alt="The compact TigerPOD Mini reading a spool">
+
 - **[TigerPOD Mini](https://makerworld.com/fr/models/3190348-tigerpod-mini-for-openspool-tigertag-rfid-filament)** — *recommended.* A redesigned, more compact shell: it **prints faster**, **uses less filament**, takes up **less desk space**, and **routes the cables inside** (integrated cable management). Same two ACR122U readers facing each other, and it reads and writes both **TigerTag** and **OpenSpool** (NDEF) tags. It's simply a better Pod than the original.
 - **[TigerPOD (original)](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament)** — the first shell, sized for a standard 1 kg spool.
 
 Both are the same Pod under the skin — pick whichever suits your desk.
+
+<br clear="right">
+
+<sub>▲ The TigerPOD Mini — one upright reader on each side, cables tucked inside.</sub>
 
 And since you print it yourself, **it comes in whatever colour you load.** Same Pod, your filament:
 
@@ -464,6 +470,7 @@ Press and partners are welcome to use these, under [CC-BY-4.0](LICENSE) (credit 
 | **Hero / line-up shots** | [`assets/lineup/`](assets/lineup) — the full Pod line-up, ideal as a cover image |
 | **Product shots** | [`assets/pods/`](assets/pods) — 34 individual Pods, one per colour and finish |
 | **The system** | [`TigerPOD-hero-system.png`](assets/TigerPOD-hero-system.png) — Pod + desktop app + mobile app |
+| **The Mini** | [`TigerPOD-mini.png`](assets/TigerPOD-mini.png) — the compact Mini model (transparent PNG) |
 | **In use** | [`TigerPOD-demo.mp4`](assets/TigerPOD-demo.mp4) · [`TigerPOD-demo.gif`](assets/TigerPOD-demo.gif) |
 | **Parts** | [`TigerPOD-reader-acr122u.jpg`](assets/TigerPOD-reader-acr122u.jpg) · [`TigerPOD-splitter.jpg`](assets/TigerPOD-splitter.jpg) |
 
