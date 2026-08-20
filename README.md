@@ -144,6 +144,13 @@ completely different use, and it's still a Pod. Only the two facing readers matt
 holder around them is an implementation detail. Remix it — and
 [share what you make](CONTRIBUTING.md).
 
+We did exactly that ourselves — there are now **two shells to print**, same two-reader concept:
+
+- **[TigerPOD Mini](https://makerworld.com/fr/models/3190348-tigerpod-mini-for-openspool-tigertag-rfid-filament)** — *recommended.* A redesigned, more compact shell: it **prints faster**, **uses less filament**, takes up **less desk space**, and **routes the cables inside** (integrated cable management). Same two ACR122U readers facing each other, and it reads and writes both **TigerTag** and **OpenSpool** (NDEF) tags. It's simply a better Pod than the original.
+- **[TigerPOD (original)](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament)** — the first shell, sized for a standard 1 kg spool.
+
+Both are the same Pod under the skin — pick whichever suits your desk.
+
 And since you print it yourself, **it comes in whatever colour you load.** Same Pod, your filament:
 
 <p>
@@ -289,8 +296,11 @@ ACR122U doesn't cover — those tags are outside the Pod's range.</sub>
 
 ## Build one
 
-1. Print the shell — one part, the model is published on
-   [MakerWorld](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament).
+1. Print a shell — the compact
+   [**TigerPOD Mini**](https://makerworld.com/fr/models/3190348-tigerpod-mini-for-openspool-tigertag-rfid-filament)
+   (recommended) or the
+   [original](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament),
+   both on MakerWorld. See [Two shells to print](#its-a-concept-not-a-fixed-product).
 2. Get two [ACR122U-compatible readers](https://amzn.to/4vok3d7), from any shop you like
    (and some [NTAG 213 / 215 / 216 tags](https://amzn.to/3TzxGc7) to write on).
 3. Slide one reader into each slot — no screws, no glue, no wiring.

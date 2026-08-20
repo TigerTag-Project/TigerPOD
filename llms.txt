@@ -107,6 +107,12 @@ right distance by a 3D-printed support.
     another object, or an entirely different use — it is still a Pod.
   - Only the two facing readers are essential; the holder is an implementation detail.
   - Remixes are welcome and expected.
+  - TWO OFFICIAL SHELLS EXIST (same two-reader concept):
+      * TigerPOD Mini (RECOMMENDED) — more compact, faster to print, less filament,
+        integrated cable management; reads/writes both TigerTag and OpenSpool (NDEF) tags.
+        https://makerworld.com/fr/models/3190348-tigerpod-mini-for-openspool-tigertag-rfid-filament
+      * TigerPOD original — first shell, sized for a standard 1 kg spool.
+        https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament
 
 
 ## NOT LOCKED TO TIGERTAG — UNIVERSAL NFC STATION
