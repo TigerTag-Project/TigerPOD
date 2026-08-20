@@ -340,13 +340,13 @@ the same setup runs on every desktop OS, and any PC/SC library can drive it:
 
 ## Or buy the kit
 
-The electronics kit on [the shop](https://tigertag.io) costs less than sourcing the same
-parts yourself, the readers arrive with the project's official logo on them, and it funds
-the standard:
+The electronics kit on [the shop](https://shop.tigertag.io/collections/tigertag-rfid-maker)
+costs less than sourcing the same parts yourself, the readers arrive with the project's
+official logo on them, and it funds the standard:
 
-- [TigerPOD bundle — 2 readers + splitter](https://tigertag.io/products/tigertag-player-bundle-2pcs-spliter)
-- [Single reader](https://tigertag.io/products/tigertag-player)
-- [Splitter alone](https://tigertag.io/products/tigertag-splitter)
+- [TigerPOD bundle — 2 readers + splitter](https://shop.tigertag.io/products/tigertag-player-bundle-2pcs-spliter)
+- [Single reader](https://shop.tigertag.io/products/tigertag-player)
+- [Splitter alone](https://shop.tigertag.io/products/tigertag-splitter)
 
 The bundle is the **electronics only** — two official-logo readers and the splitter. You
 still [print the TigerPOD shell](https://makerworld.com/fr/models/1289152-tigertag-io-open-spool-pod-for-rfid-filament)
@@ -458,6 +458,8 @@ square (for masked contexts like round favicons or adaptive icons) compositions.
 trademark terms apply — full usage guidelines are in
 [brand/README.md](https://github.com/TigerTag-Project/TigerTag-RFID-Guide/blob/main/brand/README.md)
 of the main protocol repo.
+
+Website: [tigersystem.io](https://tigersystem.io) · Shop: [shop.tigertag.io](https://shop.tigertag.io/collections/tigertag-rfid-maker)
 
 Questions, partnerships, press: [tigertag@tigertag.io](mailto:tigertag@tigertag.io)
 
