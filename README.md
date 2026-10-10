@@ -441,6 +441,16 @@ NFC read/write station that happens to be spool-shaped.
 **Does it need internet?**
 No. The Pod reads and writes locally; nothing phones home.
 
+## Support the project
+
+TigerSystem is a personal, community open-source project, built and maintained in free time.
+Everything stays free; if it saves you a spool or two, you can support it:
+
+- ☕ [Buy Me a Coffee](https://buymeacoffee.com/benoitl)
+- 💙 [PayPal](https://paypal.me/tigersystemio)
+
+Support goes to the maintainer — never required, always appreciated.
+
 ## Contributing
 
 Remixes of the shell, build photos, doc fixes, and translations are all welcome — see
