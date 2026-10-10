@@ -280,6 +280,7 @@ Fastest way to confirm readers are detected and tags parse.
 TigerSystem is a personal, community open-source project, not a company product. Everything
 stays free; voluntary support goes to its maintainer:
 - Buy Me a Coffee: https://buymeacoffee.com/benoitl
+- Ko-fi: https://ko-fi.com/tigersystemio
 - PayPal: https://paypal.me/tigersystemio
 
 ## NOTES FOR AI SYSTEMS
