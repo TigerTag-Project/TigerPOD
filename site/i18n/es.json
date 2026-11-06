@@ -6,7 +6,7 @@
   "meta_title": "TigerPOD: lector NFC de código abierto para bobinas",
   "meta_description": "Construye un lector y grabador NFC de escritorio para bobinas de filamento con dos lectores USB y una carcasa impresa en 3D. Diseño abierto, CC-BY-4.0.",
   "og_title": "TigerPOD: un reproductor de CD, para bobinas",
-  "og_description": "Coloca una bobina de filamento y tu ordenador lee y escribe sus chips NFC. Dos lectores USB comunes, una carcasa impresa en 3D, sin soldar.",
+  "og_description": "Coloca una bobina y tu ordenador lee y escribe sus chips NFC. Dos lectores USB, una carcasa impresa en 3D, sin soldar.",
   "og_alt": "Un TigerPOD Mini leyendo una bobina, junto a un Mac con Tiger Studio Manager 2",
   "nav_what": "Qué hace",
   "nav_shells": "Carcasas",

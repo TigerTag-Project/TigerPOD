@@ -6,7 +6,7 @@
   "meta_title": "TigerPOD: open-source NFC reader for filament spools",
   "meta_description": "Build a desktop NFC reader and writer for 3D-printing filament spools from two USB readers and a 3D-printed shell. Open design, CC-BY-4.0.",
   "og_title": "TigerPOD: a CD player, for spools",
-  "og_description": "Drop a filament spool in and your computer reads and writes its NFC chips. Two commodity USB readers, one 3D-printed shell, no soldering.",
+  "og_description": "Drop a spool in and your computer reads and writes its NFC chips. Two USB readers, one 3D-printed shell, no soldering.",
   "og_alt": "A TigerPOD Mini reading a spool, beside a Mac running Tiger Studio Manager 2",
   "nav_what": "What it does",
   "nav_shells": "Shells",

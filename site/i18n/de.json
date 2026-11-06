@@ -6,7 +6,7 @@
   "meta_title": "TigerPOD: Open-Source-NFC-Leser für Filamentspulen",
   "meta_description": "Bau dir einen NFC-Leser und -Schreiber für Filamentspulen aus zwei USB-Lesegeräten und einem 3D-gedruckten Gehäuse. Offenes Design, CC-BY-4.0.",
   "og_title": "TigerPOD: ein CD-Player, für Spulen",
-  "og_description": "Spule einlegen, und dein Computer liest und beschreibt ihre NFC-Chips. Zwei handelsübliche USB-Lesegeräte, ein 3D-gedrucktes Gehäuse, kein Löten.",
+  "og_description": "Spule einlegen, und dein Computer liest und beschreibt ihre NFC-Chips. Zwei USB-Lesegeräte, ein 3D-Druck-Gehäuse, kein Löten.",
   "og_alt": "Ein TigerPOD Mini, der eine Spule liest, neben einem Mac mit Tiger Studio Manager 2",
   "nav_what": "Funktionen",
   "nav_shells": "Gehäuse",
