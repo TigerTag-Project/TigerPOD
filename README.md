@@ -10,6 +10,36 @@ shell. Drop a filament spool in and your computer reads its TigerTag chip — ma
 brand, colour, temperatures, what's left. Write (encode) a tag the same way: put the
 spool in, done. No aiming, no hunting for the sticker.
 
+<p align="center">
+  <a href="https://tigertag-project.github.io/TigerPOD/">
+    <img src="assets/site-button.svg" alt="Build your TigerPOD: visit the TigerPOD site" width="420">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://tigertag-project.github.io/TigerPOD/" hreflang="en">English</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/fr/" hreflang="fr">Français</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/de/" hreflang="de">Deutsch</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/es/" hreflang="es">Español</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/it/" hreflang="it">Italiano</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/zh/" hreflang="zh-Hans">中文</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/pt/" hreflang="pt-BR">Português (BR)</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/pt-pt/" hreflang="pt-PT">Português (PT)</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/pl/" hreflang="pl">Polski</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/ru/" hreflang="ru">Русский</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://tigertag-project.github.io/TigerPOD/nl/" hreflang="nl">Nederlands</a>
+</p>
+
 ![The TigerPOD, printed in every colour, each cradling a filament spool](assets/lineup/TigerPOD-lineup-9.jpg)
 
 ![The TigerPOD reading a spool in Tiger Studio](assets/TigerPOD-demo.gif)
