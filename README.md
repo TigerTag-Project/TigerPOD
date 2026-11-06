@@ -490,7 +490,7 @@ Remixes of the shell, build photos, doc fixes, and translations are all welcome 
 ## Licence
 
 The documentation in this repository is **CC-BY-4.0** (see [LICENSE](LICENSE)).
-The TigerTag name and logo are trademarks of TigerTag Corp — usage terms in
+The TigerTag name and logo are trademarks of TigerSystem — usage terms in
 [TRADEMARK.md](https://github.com/TigerTag-Project/TigerTag-RFID-Guide/blob/main/TRADEMARK.md).
 
 `assets/` also carries the official "Tiger" icon kit: neutral (no text) and
