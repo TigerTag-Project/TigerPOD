@@ -7,7 +7,7 @@
   "meta_description": "Construa um leitor/gravador NFC de secretária para bobinas de filamento, com dois leitores USB e uma caixa impressa em 3D. Design aberto, CC-BY-4.0.",
   "og_title": "TigerPOD: um leitor de CD, para bobinas",
   "og_description": "Pouse uma bobina de filamento e o computador lê e grava os seus chips NFC. Dois leitores USB correntes, uma caixa impressa em 3D, sem soldar.",
-  "og_alt": "Caixas TigerPOD impressas em nove cores, cada uma com uma bobina de filamento",
+  "og_alt": "Um TigerPOD Mini a ler uma bobina, ao lado de um Mac com o Tiger Studio Manager 2",
   "nav_what": "O que faz",
   "nav_shells": "Caixas",
   "nav_build": "Construir",

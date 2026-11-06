@@ -7,7 +7,7 @@
   "meta_description": "Costruisci un lettore e scrittore NFC da scrivania per bobine di filamento con due lettori USB e un guscio stampato in 3D. Design aperto, CC-BY-4.0.",
   "og_title": "TigerPOD: un lettore CD, per bobine",
   "og_description": "Inserisci una bobina di filamento e il computer legge e scrive i suoi chip NFC. Due comuni lettori USB, un guscio stampato in 3D, niente saldature.",
-  "og_alt": "Gusci TigerPOD stampati in nove colori, ognuno con una bobina di filamento",
+  "og_alt": "Un TigerPOD Mini che legge una bobina, accanto a un Mac con Tiger Studio Manager 2",
   "nav_what": "Cosa fa",
   "nav_shells": "Gusci",
   "nav_build": "Costruiscilo",

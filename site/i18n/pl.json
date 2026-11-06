@@ -7,7 +7,7 @@
   "meta_description": "Zbuduj biurkowy czytnik i programator NFC do szpul filamentu z dwóch czytników USB i obudowy z drukarki 3D. Otwarty projekt, CC-BY-4.0.",
   "og_title": "TigerPOD: odtwarzacz CD, tylko dla szpul",
   "og_description": "Włóż szpulę filamentu, a komputer odczyta i zapisze jej chipy NFC. Dwa popularne czytniki USB, jedna drukowana obudowa, bez lutowania.",
-  "og_alt": "Obudowy TigerPOD wydrukowane w dziewięciu kolorach, każda ze szpulą filamentu",
+  "og_alt": "TigerPOD Mini odczytujący szpulę obok Maca z Tiger Studio Manager 2",
   "nav_what": "Co robi",
   "nav_shells": "Obudowy",
   "nav_build": "Zbuduj",
