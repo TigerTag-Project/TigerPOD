@@ -115,7 +115,7 @@ def page_path(lang):
 def jsonld(lang, words, site_url, url, date):
     inlang = HTML_LANG.get(lang, lang)
     image = site_url + "assets/og.jpg"
-    org = {"@context": "https://schema.org", "@type": "Organization", "@id": ORG_ID, "name": "TigerTag Corp",
+    org = {"@context": "https://schema.org", "@type": "Organization", "@id": ORG_ID, "name": "TigerSystem",
            "url": "https://tigersystem.io", "logo": site_url + "assets/apple-touch-icon.png",
            "email": "tigertag@tigertag.io",
            "sameAs": ["https://github.com/TigerTag-Project", "https://wiki.tigersystem.io",
