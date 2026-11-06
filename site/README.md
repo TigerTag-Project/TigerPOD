@@ -24,7 +24,6 @@ It shares its architecture and look with the
 | [`site.css`](site.css), [`site.js`](site.js) | The look (dark by default, light on request) and the theme / language buttons. Each page loads them with `?v=` and a hash of the file's content, so a new version is never hidden by a browser cache. |
 | [`seo_check.py`](seo_check.py) | Checks the built pages for search and answer engines. |
 | [`assets/`](assets/) | Web-sized copies (WebP, a short silent MP4) of the repository's own photos in [`../assets/`](../assets/), the black TigerTag logo for the light theme, the favicon and the touch icon. |
-| [`og.jpg`](og.jpg) | The picture shown when the site is shared (1200 × 630), from `assets/TigerPOD-social-preview.png`. |
 
 ## Editing
 

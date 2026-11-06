@@ -7,7 +7,7 @@
   "meta_description": "Monte um leitor e gravador NFC de mesa para carretéis de filamento 3D com dois leitores USB e uma carcaça impressa em 3D. Projeto aberto, CC-BY-4.0.",
   "og_title": "TigerPOD: um toca-CD para carretéis",
   "og_description": "Coloque um carretel de filamento e o seu computador lê e grava os chips NFC dele. Dois leitores USB comuns, uma carcaça impressa em 3D, sem solda.",
-  "og_alt": "Carcaças TigerPOD impressas em nove cores, cada uma com um carretel de filamento",
+  "og_alt": "Um TigerPOD Mini lendo um carretel, ao lado de um Mac com o Tiger Studio Manager 2",
   "nav_what": "O que faz",
   "nav_shells": "Carcaças",
   "nav_build": "Monte o seu",

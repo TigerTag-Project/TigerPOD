@@ -34,6 +34,10 @@ REPO_URL = "https://github.com/TigerTag-Project/TigerPOD"
 # The eleven languages of the TigerTag sites, in the same order. `pt` (Brazil)
 # and `pt-pt` (Portugal) are separate dictionaries on purpose.
 LANGS = ["en", "fr", "de", "es", "it", "zh", "pt", "pt-pt", "pl", "ru", "nl"]
+
+# The share picture: tigersystem.io draws this page's card in each language,
+# with the same renderer as its own pages, so the site keeps no picture of its own.
+SHARE_CARD = "https://tigersystem.io/{lang}/tigerpod/opengraph-image"
 HTML_LANG = {"zh": "zh-Hans", "pt": "pt-BR", "pt-pt": "pt-PT"}
 OG_LOCALE = {"en": "en_US", "fr": "fr_FR", "de": "de_DE", "es": "es_ES", "it": "it_IT",
              "zh": "zh_CN", "pt": "pt_BR", "pt-pt": "pt_PT", "pl": "pl_PL", "ru": "ru_RU", "nl": "nl_NL"}
@@ -114,7 +118,7 @@ def page_path(lang):
 
 def jsonld(lang, words, site_url, url, date):
     inlang = HTML_LANG.get(lang, lang)
-    image = site_url + "assets/og.jpg"
+    image = SHARE_CARD.format(lang=lang)
     org = {"@context": "https://schema.org", "@type": "Organization", "@id": ORG_ID, "name": "TigerSystem",
            "url": "https://tigersystem.io", "logo": site_url + "assets/apple-touch-icon.png",
            "email": "tigertag@tigertag.io",
@@ -170,6 +174,7 @@ def render(template, lang, words, dicts, site_url, date):
 
     special = {
         "@lang": lang,
+        "@ogimage": SHARE_CARD.format(lang=lang),
         "@htmllang": HTML_LANG.get(lang, lang),
         "@oglocale": OG_LOCALE[lang],
         "@oglocalealt": "\n".join(f'<meta property="og:locale:alternate" content="{OG_LOCALE[l]}">' for l in LANGS if l != lang),
@@ -218,7 +223,6 @@ def build(out, site_url):
         shutil.copy2(REPO / source, out / "assets" / published)
     # Web-sized pictures made for the site (site/assets/), from the README's photos.
     shutil.copytree(HERE / "assets", out / "assets", dirs_exist_ok=True)
-    shutil.copy2(HERE / "og.jpg", out / "assets" / "og.jpg")
     # The machine-readable description of the project, at the site root too.
     shutil.copy2(REPO / "llms.txt", out / "llms.txt")
 

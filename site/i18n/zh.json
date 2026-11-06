@@ -7,7 +7,7 @@
   "meta_description": "用两个 USB 读卡器和一个 3D 打印外壳，自己动手搭建一台桌面 NFC 读写器，读写 3D 打印耗材卷的芯片。开放设计，CC-BY-4.0 许可。",
   "og_title": "TigerPOD：耗材卷的 CD 播放机",
   "og_description": "把耗材卷放进去，电脑就能读写它的 NFC 芯片。两个常见的 USB 读卡器，一个 3D 打印外壳，无需焊接。",
-  "og_alt": "九种颜色打印的 TigerPOD 外壳，每个都放着一卷耗材",
+  "og_alt": "正在读取耗材的 TigerPOD Mini，旁边是运行 Tiger Studio Manager 2 的 Mac",
   "nav_what": "功能",
   "nav_shells": "外壳",
   "nav_build": "动手制作",
